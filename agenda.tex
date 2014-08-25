@@ -1,66 +1,139 @@
-%\documentclass[11pt]{meetingmins}
-%s\documentclass[11pt,chair]{meetingmins}
-\documentclass[11pt,agenda]{meetingmins}
+%\documentclass[a4paper,11pt]{meetingmins}
+%\documentclass[a4paper,11pt,chair]{meetingmins}
+\documentclass[a4paper,10pt,agenda]{meetingmins}
+
+\usepackage[cm]{fullpage}
+%\usepackage{showframe}
 
 \usepackage[T1]{fontenc}
 \usepackage[brazil]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[pdftex]{graphicx}
 
+
 \setcommittee{PSHA\-B: Análise Probabilistica de Ameaça Sísmica no Brasil}
 \setmembers{
-\chair{M. Pirchiner},
-\chair{S. Drouet},
-\chair{M. Assumpção},
-J.C. Dourado,
-J.~Ferreira,
-J.~Juliá
+\chair{M. Pirchiner (USP)},
+\chair{S. Drouet (ON)},
+\chair{M. Assumpção (USP)},
+
+J.C. Dourado (UNESP),
+
+J. Ferreira (UFRN),
+J. Juliá (UFRN),
+H. Bezerra (UFRN),
+
+G.S. França (UnB),
+L. Barros (UnB),
+Kate Tomé (UnB),
+
+Tania Bustamante (PUC-RJ),
+Jackeline Castañeda (PUC-RJ),
+Maria Cascão (PUC-RJ),
+Celso Romanel (PUC-RJ),
+
+L.C. Ribotta (IPT-SP),
+
+Edgar Sanabria (B\&A),
+Tatiana Romero (B\&A),
+
+Sergio Hampshire (UFRJ/NBR),
+Silvio Poli (UFRJ)
+
 }
 \setdate{24 de setembro de 2014}
 
 \begin{document}
 \maketitle
 
-\section{Announcements}
-\begin{hiddenitems}
-\item
-The dean is coming today.
-\item
-The dean has canceled.
-\end{hiddenitems}
+\section{Boas-Vindas}
+	
+	- PSHA-B (Grupo de Pesquisa em Ameaça e Engenharia Sísmica no Brasil)
+	
+	- Informes do último encontro (02/2014, RJ)
+	
+	- \textbf{Meta}: artigo discutindo a construção do modelo de ameaça sísmica
+	para Brasil.
+	
+
+\section{Motivação}
+	
+	- Comissão ABNT para Estruturas Resistentes aos Sismos
+	
+	- Modelos sobre o Brasil: Giardini(GSHAP) e Petersen2010(preliminar)
+
+		
+\section{Aspectos Metodológicos (OpenQuake)}
+		
+	\subsection{i. fontes sismogênicas}
+		\begin{itemize}[leftmargin=2.5cm]
+		  	\itemsep0.0em
+			\item diferentes abordagens (\textbf{sismicidade}, geologia e geodésia) \\
+				para caracterização de fontes sismogênicas;
+			\item remoção de agrupamentos;
+			\item magnitude de completude;
+			\item magnitude máxima e
+			\item relações de recorrência (MFD)
+		\end{itemize}
+	
+	\subsection{ii. magnitudes e rupturas associadas}
+
+	\subsection{iii. relações de atenuação (GMPEs)}
+	
+	\subsection{iv. cálculo (propriamente dito) da ameaça}
 
 
-\section{Committee Reports}
-\subsection{College-wide Committees}
-\subsubsection{Library}
-\subsubsection{Curriculum}
 
-\begin{hiddensubitems}
-\item
-There is widespread interest in reforming
-the curriculum.
-\item
-Unfortunately, no one seems interested
-in participating on the curriculum
-reform committee.
+\section{Modelos em construção no Brasil}
+	
+	- Brasil: Zonas. Dourado.
 
-\end{hiddensubitems}
-\subsection{Department Committees}
-\subsubsection{Personnel}
-\subsubsection{Assistant Professor Search}
-\section{Old Business}
-\begin{items}
-\item
-\priormins
-\end{items}
-\section{New Business}
-\begin{items}
-\item
-Discuss class schedules for next semester.
-\item
-Discuss research plans for next semester.
-\end{items}
+	- Brasil: Zonas. Assumpção.
+	
+	- Nordeste: Zonas. Joaquim / Jordi.
+	
+	- Sudeste: Zonas. Tania / Jackeline.
+	
+	- Zoneless / Smoothing. Marlon.
+	
+
+
+\section{Dados públicos disponíveis}
+	
+	- Catálogos: BSB2013.08 com magnitude Mw ?!
+		
+	- Falhas neotectônicas. (Hilário e/ou Ricomini)
+		
+	- Deformações crustais. SIRGAS.
+
+
+
+\section{Árvore lógica para fontes sísmicas}
+	
+	- Usar outras abordagens (geológica, geodésica).
+	
+	- Pesos para a arvore lógica.
+
+
+\section{Árvore lógica para GMPEs}
+	
+	- Dados disponíveis. Stéphane.
+
+	- Critérios de seleção. Stéphane.
+
+
+\section{Detalhamento dos Modelos (opcional)\\
+	(à tarde em qualquer internet café ou restaurante)}
+	
+	- distribuição de profundidades,
+
+	- direções preferenciais de ruptura, 
+
+	- falhamentos.
+	
+
+
 \vspace{1em}
 
-\nextmeeting{a ser definido}
+\nextmeeting{a definir.}
 \end{document}
